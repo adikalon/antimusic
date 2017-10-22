@@ -1,0 +1,160 @@
+/* Additional fields */
+
+.properties-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.right-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: calc(100% - 260px);
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-left: 10px;
+}
+
+.album-year-block, .url-ids-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+
+.cover {
+	background-image: url(../img/nourlimg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 250px;
+	height: 250px;
+}
+
+.new-cover {
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 250px;
+	height: 250px;
+}
+
+.input-100 {
+	width: 100%;
+}
+
+.album-block {
+	width: 60%;
+}
+
+.year-block {
+	width: calc(15% - 10px);
+	margin-left: 10px;
+}
+
+.country-block {
+	width: calc(25% - 10px);
+	margin-left: 10px;
+}
+
+.band-id-block {
+	width: calc(50% - 5px);
+}
+
+.country-id-block {
+	width: calc(50% - 5px);
+	margin-left: 10px;
+}
+
+/* Description and Keywords */
+
+.deskey-pole {
+	width: 100%;
+}
+
+.deskey-button {
+	width: 100%;
+}
+
+.deskey-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.deskey-sub-block {
+	width: 75%;
+	padding-right: 10px;
+}
+
+.deskey-button-block {
+	width: 25%;
+}
+
+.deskey-description {
+	height: 50px !important;
+}
+
+.deskey-input {
+	margin-top: 1px;
+	height: 27px !important;
+}
+
+.deskey-desk-styles {
+	text-align: center;
+	line-height: 50px !important;
+}
+
+.deskey-key-styles {
+	text-align: center;
+}
+
+/* Other */
+
+.label-meta {
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.label-block {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* Songs */
+
+.songs-button {
+	width: 150px;
+	margin-left: 10px !important;
+	height: 70px !important;
+	text-align: center;
+	padding-top: 20px !important;
+}
+
+.songs-area {
+	width: calc(100% - 160px);
+	min-height: 70px;
+}
+
+.songs-second-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.songs-label-second {
+	margin-top: 5px;
+}
+
+.songs-label-first {
+	margin-top: 10px;
+}
+
+.songs-input {
+	width: 100%;
+}
